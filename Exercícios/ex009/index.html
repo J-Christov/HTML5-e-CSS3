@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. </p>
+
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/10%20-%20Liga%C3%A7%C3%B5es%20em%20toda%20parte.pdf" target="_blank">repositório público no GitHub</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="FACULDADE OUTUBRO.pdf" download="FACULDADE OUTUBRO.pdf" type="application/pdf">Baixar o boleto em PDF</a></li>
+    </ul>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Escute essa música para relaxar enquanto trabalha:</p>
+    <audio src="audio/Snowy Peaks pt I - Chris Haugen.mp3" controls autoplay></audio>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse suite em vários dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <video src="audio/production ID_4088185.mp4" width="560" height="500" controls></video>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/jKh-DP89FPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
